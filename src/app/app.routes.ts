@@ -8,6 +8,10 @@ export const routes: Routes = [
   },
   {
     path: 'auth-layout',
-    loadComponent: () => import('./core/auth/pages/layout/auth-layout'),
+    loadComponent: () => import('./core/auth/layout/auth-layout'),
+  },
+  {
+    path: 'home',
+    loadComponent: () => import('./features/home/home'),
   },
 ];

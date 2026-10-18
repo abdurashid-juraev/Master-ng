@@ -17,4 +17,7 @@ export class SingIn {
     login: new FormControl('', Validators.required),
     password: new FormControl('', Validators.minLength(6)),
   });
+  login() {
+    console.log(this.loginForm.controls.login.value);
+  }
 }

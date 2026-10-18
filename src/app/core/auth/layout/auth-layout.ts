@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SingIn } from '../sign-in/sign-in';
+import { SingIn } from '../pages/sign-in/sign-in';
 
 @Component({
   selector: 'auth-layout',
